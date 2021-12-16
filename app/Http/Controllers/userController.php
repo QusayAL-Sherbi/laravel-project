@@ -20,6 +20,6 @@ class UserController extends Controller
         "name"=>"watch",
         "price"=>"50 JD",
       ];
-      return view('products',compact($products));
+      return view('products',$products);
     }
 }
